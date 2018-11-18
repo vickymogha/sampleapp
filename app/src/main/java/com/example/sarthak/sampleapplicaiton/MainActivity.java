@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("events", "eventmy");
         editor.commit();
         
-        String value = prefs.getString("events","No value");
+        String value = prefs.getString("events","No");
         Log.e("value",value);
         addOverlay();
         System.out.print("aaa");
