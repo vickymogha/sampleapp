@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SharedPreferences prefs = this.getSharedPreferences("ppp1", Context.MODE_MULTI_PROCESS);
+        SharedPreferences prefs = this.getSharedPreferences("p1p", Context.MODE_MULTI_PROCESS);
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString("events", "eventmy");
         editor.commit();
