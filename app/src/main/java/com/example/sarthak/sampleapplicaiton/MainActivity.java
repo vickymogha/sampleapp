@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SharedPreferences prefs = this.getSharedPreferences("kkkk", Context.MODE_MULTI_PROCESS);
+        SharedPreferences prefs = this.getSharedPreferences("kksssskk", Context.MODE_MULTI_PROCESS);
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("events", "eventmy");
+        editor.putString("events", "eventmysss");
         editor.commit();
         
-        String value = prefs.getString("events","No value");
+        String value = prefs.getString("events","No valssue");
         Log.e("value",value);
         addOverlay();
         System.out.print("aaa");
